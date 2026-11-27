@@ -1,0 +1,42 @@
+# Visual Studio user / IDE files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.aps
+*.ncb
+ipch/
+
+# Build & intermediate directories
+x64/
+tmp/
+PhysicsProject/x64/
+PhysicsProject/Intermediate/
+PhysicsProject/Debug/
+PhysicsProject/Release/
+
+# Output directories (keep required SFML runtime DLLs)
+Debug/*
+!Debug/*.dll
+Release/*
+!Release/*.dll
+
+# Build artifacts
+*.obj
+*.tlog
+*.log
+*.ilk
+*.exe
+*.exp
+*.idb
+*.ipch
+*.lastbuildstate
+*.pdb
+!PhysicsProject/Includes/**/*.pdb
